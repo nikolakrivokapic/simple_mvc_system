@@ -1,0 +1,17 @@
+{
+  "name": "nikolaForma",
+  "description": "Test",
+  "type": "project",
+  "require": {
+    "vlucas/valitron" : "1.2.5"
+  },
+  "autoload": {
+    "classmap": [
+      "controllers",
+	 "models"
+    ]
+  },
+  "config": {
+    "preferred-install": "dist"
+  }
+}
